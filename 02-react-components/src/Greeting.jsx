@@ -1,3 +1,6 @@
-function Greeting() {
-  return <h1>&quot;I swear by my pretty florat bonnet. I will end you.&quot;</h1>;
+
+const Greeting = (props) => {
+  return <h1>{props.message}</h1>;
 }
+
+export default Greeting;
