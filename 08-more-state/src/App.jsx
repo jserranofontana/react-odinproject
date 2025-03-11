@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 import Person from './Person'
+import Form from './Form'
+import Counter from './Counter'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +13,8 @@ function App() {
   return (
     <>
       <Person />
+      <Form />
+      <Counter />
     </>
   )
 }
