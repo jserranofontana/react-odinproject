@@ -95,7 +95,7 @@ function App() {
       {/* Lista de componentes */}
       <div>
         <h1>Animals (Lista de componentes): </h1>
-        <List />
+        <List animals={animals} />
       </div>
     </>
   )
